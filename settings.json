@@ -67,7 +67,7 @@
 
   "workbench.colorTheme": "GitHub Dark",
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
@@ -75,4 +75,8 @@
   "[blade]": {
     "editor.autoClosingBrackets": "always"
   },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.formatOnSave": true
+  }
 }
