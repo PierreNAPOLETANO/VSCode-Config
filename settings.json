@@ -10,7 +10,7 @@
     "source.organizeImports": "always"
   },
   "editor.codeLens": false,
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Hack, Consolas, 'Courier New', monospace",
@@ -26,6 +26,82 @@
   "editor.renderWhitespace": "trailing",
   "editor.suggest.insertMode": "replace",
   "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "entity.name.tag",
+          "keyword",
+          "keyword.control",
+          "keyword.operator",
+          "storage.modifier",
+          "storage.type"
+        ],
+        "settings": { "foreground": "#859901" }
+      },
+      {
+        "scope": [
+          "entity.name.class",
+          "entity.name.type",
+          "support.type.primitive"
+        ],
+        "settings": { "foreground": "#b58900" }
+      },
+      {
+        "scope": [
+          "entity.name.function",
+          "entity.other.attribute-name",
+          "entity.other.inherited-class",
+          "number",
+          "support.type.property-name",
+          "variable"
+        ],
+        "settings": { "foreground": "#278bd2" }
+      },
+      {
+        "scope": ["string", "constant.numeric"],
+        "settings": { "foreground": "#2aa198" }
+      },
+      {
+        "scope": [
+          "comment",
+          "constant.other.placeholder",
+          "meta.arrow",
+          "operators",
+          "special function",
+          "support.variable",
+          "text.html.derivative",
+          "variable.other.constant",
+          "variable.other.readwrite"
+        ],
+        "settings": { "foreground": "#9eaaac" }
+      },
+      {
+        "scope": [
+          "meta.arrow",
+          "meta.embedded",
+          "meta.type.tuple",
+          "punctuation.definition.block",
+          "punctuation.definition.template-expression.begin",
+          "punctuation.definition.template-expression.end",
+          "punctuation.definition.parameters.begin",
+          "punctuation.definition.parameters.end.tsx",
+          "variable.other.object",
+          "variable.parameter"
+        ],
+        "settings": { "foreground": "#cb4a15" }
+      },
+      {
+        "scope": [
+          "meta.parameter.object-binding-pattern",
+          "punctuation.definition.tag",
+          "punctuation.section.embedded",
+          "support.class.component"
+        ],
+        "settings": { "foreground": "#dc322f" }
+      }
+    ]
+  },
 
   "emmet.triggerExpansionOnTab": true,
 
@@ -68,19 +144,34 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
 
   "workbench.colorCustomizations": {
+    "activityBar.background": "#101717",
     "activityBar.border": "#00000000",
+    "breadcrumb.background": "#101717",
+    "editorCursor.foreground": "#278bd2",
+    "editor.background": "#101717",
+    "editor.foreground": "#cb4a15",
+    "editorGroupHeader.tabsBackground": "#101717",
     "editorGroupHeader.tabsBorder": "#00000000",
     "editor.lineHighlightBackground": "#00000000",
     "editor.lineHighlightBorder": "#00000000",
     "focusBorder": "#00000000",
-    "sideBar.border": "#00000000",
+    "tab.activeBackground": "#101717",
     "tab.border": "#00000000",
-    "titleBar.border": "#00000000"
+    "tab.inactiveBackground": "#101717",
+    "titleBar.activeBackground": "#101717",
+    "titleBar.border": "#00000000",
+    "sideBar.background": "#101717",
+    "sideBar.border": "#00000000",
+    "statusBar.background": "#101717",
+    "statusBar.border": "#00000000",
+    "statusBarItem.remoteBackground": "#101717",
+    "scrollbarSlider.background": "#00000000",
+    "terminalCursor.foreground": "#278bd2"
   },
-  "workbench.colorTheme": "Haki Neosolarized V3",
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
 
