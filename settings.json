@@ -1,185 +1,120 @@
 {
-  "blade.format.enable": true,
+    // Breadcrums
+    "breadcrumbs.enabled": false,
 
-  "breadcrumbs.enabled": false,
+    // Diff Editor
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
 
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.bracketPairColorization.enabled": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "always",
-    "source.organizeImports": "always"
-  },
-  "editor.codeLens": false,
-  "editor.cursorBlinking": "solid",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "Hack, Consolas, 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "editor.formatOnSave": true,
-  "editor.guides.indentation": false,
-  "editor.letterSpacing": 0.5,
-  "editor.lineHeight": 30,
-  "editor.matchBrackets": "never",
-  "editor.minimap.enabled": false,
-  "editor.occurrencesHighlight": "off",
-  "editor.renderWhitespace": "trailing",
-  "editor.suggest.insertMode": "replace",
-  "editor.wordWrap": "on",
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "entity.name.tag",
-          "keyword",
-          "keyword.control",
-          "keyword.operator",
-          "storage.modifier",
-          "storage.type"
-        ],
-        "settings": { "foreground": "#859901" }
-      },
-      {
-        "scope": [
-          "entity.name.class",
-          "entity.name.type",
-          "support.type.primitive"
-        ],
-        "settings": { "foreground": "#b58900" }
-      },
-      {
-        "scope": [
-          "entity.name.function",
-          "entity.other.attribute-name",
-          "entity.other.inherited-class",
-          "number",
-          "support.type.property-name",
-          "variable"
-        ],
-        "settings": { "foreground": "#278bd2" }
-      },
-      {
-        "scope": ["string", "constant.numeric"],
-        "settings": { "foreground": "#2aa198" }
-      },
-      {
-        "scope": [
-          "comment",
-          "constant.other.placeholder",
-          "meta.arrow",
-          "operators",
-          "special function",
-          "support.variable",
-          "text.html.derivative",
-          "variable.other.constant",
-          "variable.other.readwrite"
-        ],
-        "settings": { "foreground": "#9eaaac" }
-      },
-      {
-        "scope": [
-          "meta.arrow",
-          "meta.embedded",
-          "meta.type.tuple",
-          "punctuation.definition.block",
-          "punctuation.definition.template-expression.begin",
-          "punctuation.definition.template-expression.end",
-          "punctuation.definition.parameters.begin",
-          "punctuation.definition.parameters.end.tsx",
-          "variable.other.object",
-          "variable.parameter"
-        ],
-        "settings": { "foreground": "#cb4a15" }
-      },
-      {
-        "scope": [
-          "meta.parameter.object-binding-pattern",
-          "punctuation.definition.tag",
-          "punctuation.section.embedded",
-          "support.class.component"
-        ],
-        "settings": { "foreground": "#dc322f" }
-      }
-    ]
-  },
+    // Editor
+    "editor.bracketPairColorization.enabled": false,
+    "editor.codeLens": false,
+    "editor.colorDecorators": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.cursorBlinking": "solid",
+    "editor.detectIndentation": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.fontLigatures": false,
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.guides.indentation": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.hover.delay": 1500,
+    "editor.hover.enabled": true,
+    "editor.lightbulb.enabled": "off",
+    "editor.matchBrackets": "never",
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.padding.bottom": 15,
+    "editor.padding.top": 15,
+    "editor.renderControlCharacters": false,
+    "editor.renderLineHighlight": "none",
+    "editor.selectionHighlight": false,
+    "editor.snippetSuggestions": "top",
 
-  "emmet.triggerExpansionOnTab": true,
+    // Emmet
+    "emmet.triggerExpansionOnTab": true,
 
-  "explorer.autoReveal": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
+    // Explorer
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "type",
 
-  "files.autoSave": "onFocusChange",
-  "files.exclude": {
-    "**/.idea": true,
-    "**/.vscode": true,
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true
-  },
+    // Files
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/package-lock.json": true,
+        "**/vendor": true,
+        "**/composer.lock": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/vendor/{[^l],?[^ai]}*": true,
+        "**/public/{[^i],?[^n]}*": true,
+        "**/dist": true,
+        "**/_ide_helper.php": true,
+        "storage": true,
+        ".phpunit.result.cache": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
 
-  "git.confirmSync": false,
+    // Git
+    "git.confirmSync": false,
+    "git.decorations.enabled": false,
 
-  "javascript.preferences.importModuleSpecifierEnding": "js",
-  "javascript.updateImportsOnFileMove.enabled": "always",
+    // Problems
+    "problems.decorations.enabled": false,
 
-  "laravel_goto_view.folders": {
-    "default": "/resources/views",
-    "theme_xxx": "/resources/views/theme_xxx"
-  },
-  "laravel_goto_view.extensions": [".blade.php", ".inky.php"],
+    // SCM
+    "scm.diffDecorations": "none",
 
-  "search.exclude": {
-    "**/.idea": true,
-    "**/.vscode": true,
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/*.code-search": true
-  },
+    // Search
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/package-lock.json": true,
+        "**/vendor": true,
+        "**/composer.lock": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/vendor/{[^l],?[^ai]}*": true,
+        "**/public/{[^i],?[^n]}*": true,
+        "**/dist": true,
+        "**/_ide_helper.php": true,
+        "storage": true,
+        ".phpunit.result.cache": true
+    },
 
-  "typescript.preferences.importModuleSpecifierEnding": "js",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+    // Window
+    "window.commandCenter": false,
 
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#101717",
-    "activityBar.border": "#00000000",
-    "breadcrumb.background": "#101717",
-    "editorCursor.foreground": "#278bd2",
-    "editor.background": "#101717",
-    "editor.foreground": "#cb4a15",
-    "editorGroupHeader.tabsBackground": "#101717",
-    "editorGroupHeader.tabsBorder": "#00000000",
-    "editor.lineHighlightBackground": "#00000000",
-    "editor.lineHighlightBorder": "#00000000",
-    "focusBorder": "#00000000",
-    "tab.activeBackground": "#101717",
-    "tab.border": "#00000000",
-    "tab.inactiveBackground": "#101717",
-    "titleBar.activeBackground": "#101717",
-    "titleBar.border": "#00000000",
-    "sideBar.background": "#101717",
-    "sideBar.border": "#00000000",
-    "statusBar.background": "#101717",
-    "statusBar.border": "#00000000",
-    "statusBarItem.remoteBackground": "#101717",
-    "scrollbarSlider.background": "#00000000",
-    "terminalCursor.foreground": "#278bd2"
-  },
-  "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "none",
-  "workbench.statusBar.visible": false,
-  "workbench.tree.indent": 15,
-  "workbench.tree.renderIndentGuides": "always",
-
-  "[blade]": {
-    "editor.autoClosingBrackets": "always"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-    "editor.formatOnSave": true
-  }
+    // Workbench
+    "workbench.colorCustomizations": {
+        "activityBar.border": "#00000000",
+        "editorGroupHeader.tabsBorder": "#00000000",
+        "editor.lineHighlightBackground": "#00000000",
+        "editor.lineHighlightBorder": "#00000000",
+        "focusBorder": "#00000000",
+        "tab.border": "#00000000",
+        "titleBar.border": "#00000000",
+        "sideBar.border": "#00000000",
+        "statusBar.border": "#00000000",
+        "scrollbarSlider.background": "#00000000",
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
 }
