@@ -19,9 +19,10 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.emptySelectionClipboard": false,
-  "editor.fontFamily": "CommitMono, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Operator Mono', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
+  "editor.fontWeight": "bold",
   "editor.formatOnSave": true,
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleDeclarations": "goto",
@@ -32,8 +33,9 @@
   "editor.hideCursorInOverviewRuler": true,
   "editor.hover.delay": 1500,
   "editor.hover.enabled": true,
+  "editor.insertSpaces": true,
   "editor.lightbulb.enabled": "off",
-  "editor.lineHeight": 28,
+  "editor.lineHeight": 45,
   "editor.linkedEditing": true,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
@@ -43,11 +45,15 @@
   "editor.padding.top": 15,
   "editor.renderControlCharacters": false,
   "editor.renderLineHighlight": "none",
-  "editor.renderWhitespace": "trailing",
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [80],
+  "editor.scrollBeyondLastLine": false,
   "editor.selectionHighlight": false,
+  "editor.showFoldingControls": "mouseover",
   "editor.snippetSuggestions": "top",
   "editor.suggest.insertMode": "replace",
   "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
   "editor.wordWrap": "on",
 
   "emmet.triggerExpansionOnTab": true,
@@ -55,6 +61,8 @@
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+
+  "extensions.ignoreRecommendations": true,
 
   "files.autoSave": "onFocusChange",
   "files.exclude": {
@@ -66,6 +74,12 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/**": true
   },
 
   "git.confirmSync": false,
@@ -111,8 +125,10 @@
     ".phpunit.result.cache": true
   },
   "search.searchOnType": false,
+  "search.useIgnoreFiles": true,
 
   "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.cursorStyle": "line",
 
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.parameterTypes.enabled": true,
@@ -122,6 +138,8 @@
   "window.commandCenter": false,
 
   "workbench.colorCustomizations": {
+    "activityBar.background": "#ebedee",
+    "activityBar.foreground": "#5a5c5b",
     "activityBar.border": "#00000000",
     "editorGroupHeader.tabsBorder": "#00000000",
     "editor.lineHighlightBackground": "#00000000",
@@ -129,12 +147,14 @@
     "focusBorder": "#00000000",
     "tab.border": "#00000000",
     "tab.activeBorderTop": "#00000000",
+    "titleBar.activeBackground": "#e0e0e0",
+    "titleBar.inactiveBackground": "#e0e0e0",
     "titleBar.border": "#00000000",
     "sideBar.border": "#00000000",
     "statusBar.border": "#00000000",
     "scrollbarSlider.background": "#00000000"
   },
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "Inspired Github",
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.limit.enabled": true,
