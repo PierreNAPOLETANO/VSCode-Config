@@ -110,6 +110,7 @@
     "storage": true,
     ".phpunit.result.cache": true
   },
+  "search.searchOnType": false,
 
   "terminal.integrated.gpuAcceleration": "on",
 
