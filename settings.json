@@ -172,5 +172,9 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
     "editor.formatOnSave": true
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.formatOnSave": true
   }
 }
