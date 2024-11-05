@@ -1,120 +1,155 @@
 {
-    // Breadcrums
-    "breadcrumbs.enabled": false,
+  "blade.format.enable": true,
 
-    // Diff Editor
-    "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.renderSideBySide": false,
+  "breadcrumbs.enabled": false,
 
-    // Editor
-    "editor.bracketPairColorization.enabled": false,
-    "editor.codeLens": false,
-    "editor.colorDecorators": false,
-    "editor.copyWithSyntaxHighlighting": false,
-    "editor.cursorBlinking": "solid",
-    "editor.detectIndentation": false,
-    "editor.emptySelectionClipboard": false,
-    "editor.fontLigatures": false,
-    "editor.gotoLocation.multipleDefinitions": "goto",
-    "editor.gotoLocation.multipleDeclarations": "goto",
-    "editor.gotoLocation.multipleImplementations": "goto",
-    "editor.gotoLocation.multipleReferences": "goto",
-    "editor.gotoLocation.multipleTypeDefinitions": "goto",
-    "editor.guides.indentation": false,
-    "editor.hideCursorInOverviewRuler": true,
-    "editor.hover.delay": 1500,
-    "editor.hover.enabled": true,
-    "editor.lightbulb.enabled": "off",
-    "editor.matchBrackets": "never",
-    "editor.minimap.enabled": false,
-    "editor.occurrencesHighlight": "off",
-    "editor.overviewRulerBorder": false,
-    "editor.padding.bottom": 15,
-    "editor.padding.top": 15,
-    "editor.renderControlCharacters": false,
-    "editor.renderLineHighlight": "none",
-    "editor.selectionHighlight": false,
-    "editor.snippetSuggestions": "top",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
 
-    // Emmet
-    "emmet.triggerExpansionOnTab": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always"
+  },
+  "editor.codeLens": false,
+  "editor.colorDecorators": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line-thin",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.emptySelectionClipboard": false,
+  "editor.fontFamily": "CommitMono, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.guides.indentation": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.hover.delay": 1500,
+  "editor.hover.enabled": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.lineHeight": 28,
+  "editor.linkedEditing": true,
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.overviewRulerBorder": false,
+  "editor.padding.bottom": 15,
+  "editor.padding.top": 15,
+  "editor.renderControlCharacters": false,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "trailing",
+  "editor.selectionHighlight": false,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.insertMode": "replace",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
 
-    // Explorer
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.sortOrder": "type",
+  "emmet.triggerExpansionOnTab": true,
 
-    // Files
-    "files.exclude": {
-        "**/node_modules": true,
-        "**/package-lock.json": true,
-        "**/vendor": true,
-        "**/composer.lock": true,
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/vendor/{[^l],?[^ai]}*": true,
-        "**/public/{[^i],?[^n]}*": true,
-        "**/dist": true,
-        "**/_ide_helper.php": true,
-        "storage": true,
-        ".phpunit.result.cache": true
-    },
-    "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true,
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
 
-    // Git
-    "git.confirmSync": false,
-    "git.decorations.enabled": false,
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/.idea": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
 
-    // Problems
-    "problems.decorations.enabled": false,
+  "git.confirmSync": false,
+  "git.decorations.enabled": false,
 
-    // SCM
-    "scm.diffDecorations": "none",
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "literals",
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "javascript.updateImportsOnFileMove.enabled": "always",
 
-    // Search
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/package-lock.json": true,
-        "**/vendor": true,
-        "**/composer.lock": true,
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/vendor/{[^l],?[^ai]}*": true,
-        "**/public/{[^i],?[^n]}*": true,
-        "**/dist": true,
-        "**/_ide_helper.php": true,
-        "storage": true,
-        ".phpunit.result.cache": true
-    },
+  "laravel_goto_view.folders": {
+    "default": "/resources/views",
+    "theme_xxx": "/resources/views/theme_xxx"
+  },
+  "laravel_goto_view.extensions": [".blade.php", ".inky.php"],
 
-    // Window
-    "window.commandCenter": false,
+  "problems.decorations.enabled": false,
 
-    // Workbench
-    "workbench.colorCustomizations": {
-        "activityBar.border": "#00000000",
-        "editorGroupHeader.tabsBorder": "#00000000",
-        "editor.lineHighlightBackground": "#00000000",
-        "editor.lineHighlightBorder": "#00000000",
-        "focusBorder": "#00000000",
-        "tab.border": "#00000000",
-        "titleBar.border": "#00000000",
-        "sideBar.border": "#00000000",
-        "statusBar.border": "#00000000",
-        "scrollbarSlider.background": "#00000000",
-    },
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.startupEditor": "none",
-    "workbench.statusBar.visible": false,
-    "workbench.tips.enabled": false,
+  "remote.SSH.remotePlatform": {
+    "flachere-test": "linux",
+    "dep-pa-devint": "linux"
+  },
+
+  "scm.diffDecorations": "none",
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/vendor": true,
+    "**/composer.lock": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/vendor/{[^l],?[^ai]}*": true,
+    "**/public/{[^i],?[^n]}*": true,
+    "**/dist": true,
+    "**/_ide_helper.php": true,
+    "storage": true,
+    ".phpunit.result.cache": true
+  },
+
+  "terminal.integrated.gpuAcceleration": "on",
+
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "window.commandCenter": false,
+
+  "workbench.colorCustomizations": {
+    "activityBar.border": "#00000000",
+    "editorGroupHeader.tabsBorder": "#00000000",
+    "editor.lineHighlightBackground": "#00000000",
+    "editor.lineHighlightBorder": "#00000000",
+    "focusBorder": "#00000000",
+    "tab.border": "#00000000",
+    "tab.activeBorderTop": "#00000000",
+    "titleBar.border": "#00000000",
+    "sideBar.border": "#00000000",
+    "statusBar.border": "#00000000",
+    "scrollbarSlider.background": "#00000000"
+  },
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 6,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.tips.enabled": false,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+
+  "[blade]": {
+    "editor.autoClosingBrackets": "always"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  }
 }
