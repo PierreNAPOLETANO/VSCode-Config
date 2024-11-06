@@ -16,14 +16,14 @@
   "editor.colorDecorators": false,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line-thin",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.emptySelectionClipboard": false,
-  "editor.fontFamily": "'Operator Mono', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "editor.fontWeight": "bold",
+  "editor.fontSize": 13,
   "editor.formatOnSave": true,
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleDeclarations": "goto",
@@ -36,7 +36,7 @@
   "editor.hover.enabled": true,
   "editor.insertSpaces": true,
   "editor.lightbulb.enabled": "off",
-  "editor.lineHeight": 45,
+  "editor.lineHeight": 30,
   "editor.linkedEditing": true,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
@@ -49,13 +49,78 @@
   "editor.renderWhitespace": "none",
   "editor.rulers": [80],
   "editor.scrollBeyondLastLine": false,
+  "editor.smoothScrolling": true,
   "editor.selectionHighlight": false,
   "editor.showFoldingControls": "mouseover",
   "editor.snippetSuggestions": "top",
   "editor.suggest.insertMode": "replace",
-  "editor.tabSize": 2,
   "editor.trimAutoWhitespace": true,
   "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["storage.type.function"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["entity.name", "meta.class", "support.type"],
+        "settings": {
+          "foreground": "#E0AF68"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.inherited-class",
+          "meta.function.parameter",
+          "meta.function.parameter.typehinted.php",
+          "meta.function.parameters punctuation.definition.variable",
+          "support.class.php",
+          "variable.other",
+          "variable.other.property",
+          "variable.parameter"
+        ],
+        "settings": {
+          "foreground": "#C0CAF5"
+        }
+      },
+      {
+        "scope": [
+          "constant.language",
+          "keyword.control",
+          "keyword.operator.type",
+          "keyword.other",
+          "keyword.other.new",
+          "storage.type.class",
+          "storage.type.function",
+          "storage.type.php"
+        ],
+        "settings": {
+          "foreground": "#9D7CD8",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["keyword.control.if"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["support.class", "support.class.php"],
+        "settings": {
+          "foreground": "#E0AF68"
+        }
+      },
+      {
+        "scope": ["punctuation.definition.string", "string"],
+        "settings": {
+          "foreground": "#9ECE6A"
+        }
+      }
+    ]
+  },
 
   "emmet.triggerExpansionOnTab": true,
 
@@ -139,8 +204,6 @@
   "window.commandCenter": false,
 
   "workbench.colorCustomizations": {
-    "activityBar.background": "#ebedee",
-    "activityBar.foreground": "#5a5c5b",
     "activityBar.border": "#00000000",
     "editorGroupHeader.tabsBorder": "#00000000",
     "editor.lineHighlightBackground": "#00000000",
@@ -148,19 +211,18 @@
     "focusBorder": "#00000000",
     "tab.border": "#00000000",
     "tab.activeBorderTop": "#00000000",
-    "titleBar.activeBackground": "#e0e0e0",
-    "titleBar.inactiveBackground": "#e0e0e0",
     "titleBar.border": "#00000000",
     "sideBar.border": "#00000000",
     "statusBar.border": "#00000000",
     "scrollbarSlider.background": "#00000000"
   },
-  "workbench.colorTheme": "Inspired Github",
+  "workbench.colorTheme": "Tokyo Night",
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 6,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
   "workbench.tips.enabled": false,
