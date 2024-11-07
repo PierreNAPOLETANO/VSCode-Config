@@ -9,8 +9,14 @@
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.codeActionsOnSave": {
+    "source.addMissingImports": "always",
+    "source.addMissingImports.ts": "always",
     "source.fixAll.eslint": "always",
-    "source.organizeImports": "always"
+    "source.fixAll.ts": "always",
+    "source.organizeImports": "always",
+    "source.removeUnused.ts": "always",
+    "source.removeUnusedImports": "always",
+    "source.sortImports": "always"
   },
   "editor.codeLens": false,
   "editor.colorDecorators": false,
@@ -21,9 +27,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.emptySelectionClipboard": false,
-  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "CommitMono, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13,
   "editor.formatOnSave": true,
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleDeclarations": "goto",
@@ -54,73 +59,9 @@
   "editor.showFoldingControls": "mouseover",
   "editor.snippetSuggestions": "top",
   "editor.suggest.insertMode": "replace",
+  "editor.tabSize": 2,
   "editor.trimAutoWhitespace": true,
   "editor.wordWrap": "on",
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": ["storage.type.function"],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": ["entity.name", "meta.class", "support.type"],
-        "settings": {
-          "foreground": "#E0AF68"
-        }
-      },
-      {
-        "scope": [
-          "entity.other.inherited-class",
-          "meta.function.parameter",
-          "meta.function.parameter.typehinted.php",
-          "meta.function.parameters punctuation.definition.variable",
-          "support.class.php",
-          "variable.other",
-          "variable.other.property",
-          "variable.parameter"
-        ],
-        "settings": {
-          "foreground": "#C0CAF5"
-        }
-      },
-      {
-        "scope": [
-          "constant.language",
-          "keyword.control",
-          "keyword.operator.type",
-          "keyword.other",
-          "keyword.other.new",
-          "storage.type.class",
-          "storage.type.function",
-          "storage.type.php"
-        ],
-        "settings": {
-          "foreground": "#9D7CD8",
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": ["keyword.control.if"],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": ["support.class", "support.class.php"],
-        "settings": {
-          "foreground": "#E0AF68"
-        }
-      },
-      {
-        "scope": ["punctuation.definition.string", "string"],
-        "settings": {
-          "foreground": "#9ECE6A"
-        }
-      }
-    ]
-  },
 
   "emmet.triggerExpansionOnTab": true,
 
@@ -152,8 +93,8 @@
   "git.decorations.enabled": false,
 
   "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
   "javascript.inlayHints.parameterTypes.enabled": true,
-  "javascript.inlayHints.parameterNames.enabled": "literals",
   "javascript.preferences.importModuleSpecifierEnding": "js",
   "javascript.updateImportsOnFileMove.enabled": "always",
 
@@ -197,8 +138,9 @@
   "terminal.integrated.cursorStyle": "line",
 
   "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.preferences.importModuleSpecifierEnding": "js",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
   "window.commandCenter": false,
@@ -216,11 +158,11 @@
     "statusBar.border": "#00000000",
     "scrollbarSlider.background": "#00000000"
   },
-  "workbench.colorTheme": "Tokyo Night",
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.colorTheme": "GitHub Dark",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 6,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none",
