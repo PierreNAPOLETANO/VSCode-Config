@@ -149,7 +149,7 @@
   "window.newWindowDimensions": "inherit",
 
   // Workbench
-  // "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "hidden",
   "workbench.colorTheme": "Palenight Theme",
   "workbench.colorCustomizations": {
     "activityBar.border": "#00000000",
@@ -166,7 +166,7 @@
   },
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  // "workbench.editor.showTabs": "none",
+  "workbench.editor.showTabs": "none",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
