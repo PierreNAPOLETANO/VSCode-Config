@@ -35,9 +35,9 @@
   "editor.hover.enabled": false,
   "editor.lightbulb.enabled": "off",
   "editor.insertSpaces": false,
-  "editor.lineHeight": 45,
+  "editor.lineHeight": 30,
   "editor.linkedEditing": true,
-  "editor.lineNumbers": "off",
+  // "editor.lineNumbers": "off",
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "ctrlCmd",
@@ -51,7 +51,7 @@
   "editor.snippetSuggestions": "top",
   "editor.suggestFontSize": 15,
   "editor.suggestLineHeight": 28,
-  "editor.tabSize": 4,
+  "editor.tabSize": 8,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -99,9 +99,9 @@
   "files.autoSave": "onFocusChange",
   "files.encoding": "utf8",
   "files.exclude": {
-    "**/.idea": true,
-    "**/.vscode": true,
     "**/.git": true,
+    "**/.vscode": true,
+    "**/.idea": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
@@ -112,9 +112,11 @@
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
 
+  "git.autofetch": true,
   "git.confirmSync": false,
   "git.decorations.enabled": false,
   "git.enabled": true,
+  "git.enableSmartCommit": true,
 
   "javascript.inlayHints.variableTypes.enabled": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
@@ -167,7 +169,7 @@
   "typescript.suggestionActions.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
 
-  "workbench.activityBar.location": "hidden",
+  // "workbench.activityBar.location": "hidden",
   "workbench.colorCustomizations": {
     "activityBar.border": "#00000000",
     "editorGroupHeader.tabsBorder": "#00000000",
@@ -205,4 +207,8 @@
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
     "editor.formatOnSave": true
   },
+
+  "remote.SSH.remotePlatform": {
+    "dep-pa-devint": "linux"
+  }
 }
