@@ -21,8 +21,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.emptySelectionClipboard": false,
-  "editor.fontFamily": "CaskaydiaMono Nerd Font",
-  "editor.fontSize": 15,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
   "editor.formatOnSave": true,
   "editor.gotoLocation.multipleDeclarations": "goto",
@@ -35,9 +35,8 @@
   "editor.hover.enabled": false,
   "editor.lightbulb.enabled": "off",
   "editor.insertSpaces": false,
-  "editor.lineHeight": 30,
+  "editor.lineHeight": 45,
   "editor.linkedEditing": true,
-  // "editor.lineNumbers": "off",
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "ctrlCmd",
@@ -49,7 +48,7 @@
   "editor.suggest.insertMode": "replace",
   "editor.selectionHighlight": false,
   "editor.snippetSuggestions": "top",
-  "editor.suggestFontSize": 15,
+  "editor.suggestFontSize": 14,
   "editor.suggestLineHeight": 28,
   "editor.tabSize": 8,
   "editor.tokenColorCustomizations": {
@@ -128,9 +127,18 @@
 
   "php.suggest.basic": false,
 
+  "prettier.documentSelectors": [
+    "**/*.{js,jsx,ts,tsx,vue,html,css,scss,less,json,md,mdx,graphql,yaml,yml,php}"
+  ],
+
   "problems.decorations.enabled": false,
 
   "scm.diffDecorations": "none",
+
+  "remote.SSH.remotePlatform": {
+    "dep-pa-devint": "linux",
+    "flachere-test": "linux"
+  },
 
   "search.exclude": {
     "**/node_modules": true,
@@ -157,8 +165,9 @@
   },
   "search.useIgnoreFiles": false,
 
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 3,
   "terminal.integrated.gpuAcceleration": "on",
 
   "typescript.inlayHints.variableTypes.enabled": true,
@@ -169,7 +178,6 @@
   "typescript.suggestionActions.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
 
-  // "workbench.activityBar.location": "hidden",
   "workbench.colorCustomizations": {
     "activityBar.border": "#00000000",
     "editorGroupHeader.tabsBorder": "#00000000",
@@ -200,15 +208,13 @@
   "window.titleBarStyle": "custom",
 
   "[blade]": {
-    "editor.autoClosingBrackets": "always"
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+    "editor.formatOnSave": true
   },
 
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
     "editor.formatOnSave": true
-  },
-
-  "remote.SSH.remotePlatform": {
-    "dep-pa-devint": "linux"
   }
 }
