@@ -110,6 +110,14 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/env/**": true,
+    "**/venv/**": true,
+    "env-*": true
+  },
 
   "git.autofetch": true,
   "git.confirmSync": false,
@@ -150,18 +158,20 @@
     "**/_ide_helper.php": true,
     "**/composer.lock": true,
     "**/package-lock.json": true,
-    "storage": true,
-    ".phpunit.result.cache": true,
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
+    "**/env": true,
+    "**/venv": true
     "_ide_helper.php": true,
     "_ide_helper_models.php": true,
     ".php_cs.cache": true,
-    ".phpstorm.meta.php": true
+    ".phpstorm.meta.php": true,
+    "storage": true,
+    ".phpunit.result.cache": true,
   },
   "search.useIgnoreFiles": false,
 
