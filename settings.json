@@ -80,10 +80,15 @@
   },
 
   "files.associations": {
+    "artisan": "php",
+    "blade": "html",
+    "blade.php": "html",
     ".php_cs": "php",
     ".php_cs.dist": "php",
     ".pre": "php",
-    "artisan": "php"
+    "twig": "html",
+    "vue": "html",
+    "vue-html": "html"
   },
   "files.autoSave": "onFocusChange",
   "files.encoding": "utf8",
