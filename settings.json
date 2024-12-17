@@ -138,11 +138,6 @@
 
   "scm.diffDecorations": "none",
 
-  "remote.SSH.remotePlatform": {
-    "dep-pa-devint": "linux",
-    "flachere-test": "linux"
-  },
-
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
