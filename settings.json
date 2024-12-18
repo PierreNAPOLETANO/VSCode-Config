@@ -1,4 +1,6 @@
 {
+  "blade.format.enable": true,
+  
   "breadcrumbs.enabled": false,
 
   "diffEditor.ignoreTrimWhitespace": false,
