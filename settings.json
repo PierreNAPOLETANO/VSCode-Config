@@ -1,6 +1,6 @@
 {
   "blade.format.enable": true,
-  
+
   "breadcrumbs.enabled": false,
 
   "diffEditor.ignoreTrimWhitespace": false,
@@ -23,7 +23,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.emptySelectionClipboard": false,
-  "editor.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Agave Nerd Font Mono', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 15.5,
   "editor.formatOnSave": true,
@@ -194,7 +194,7 @@
     "statusBar.border": "#00000000",
     "scrollbarSlider.background": "#00000000"
   },
-  "workbench.colorTheme": "Solarized Osaka",
+  "workbench.colorTheme": "",
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
