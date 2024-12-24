@@ -1,4 +1,4 @@
-
+{
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.bracketPairColorization.enabled": false,
@@ -19,7 +19,8 @@
   "editor.detectIndentation": false,
   "editor.emptySelectionClipboard": false,
   "editor.folding": false,
-  "editor.fontFamily": "'Fira Code Retina', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'DejaVu Sans Mono', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 15,
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.gotoLocation.multipleDeclarations": "goto",
@@ -34,7 +35,7 @@
   "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": true,
   "editor.lineNumbers": "relative",
-  "editor.lineHeight": 22,
+  "editor.lineHeight": 1.5,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
@@ -49,7 +50,6 @@
   "editor.smoothScrolling": true,
   "editor.snippetSuggestions": "top",
   "editor.suggestFontSize": 15,
-  "editor.suggestSelection": "first",
   "editor.suggest.insertMode": "replace",
   "editor.tabSize": 8,
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
