@@ -218,5 +218,8 @@
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
     "editor.formatOnSave": true
+  },
+  "remote.SSH.remotePlatform": {
+    "dep-pa-devint": "linux"
   }
 }
