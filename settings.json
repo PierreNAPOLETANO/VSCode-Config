@@ -138,6 +138,7 @@
   "php.validate.enable": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
+  "prettier.tabWidth": 4,
   "problems.showCurrentInStatus": false,
   "problems.decorations.enabled": false,
   "scm.diffDecorations": "none",
