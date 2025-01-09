@@ -15,14 +15,15 @@
   },
   "editor.colorDecorators": false,
   "editor.copyWithSyntaxHighlighting": false,
-  "editor.cursorBlinking": "solid",
-  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "block",
   "editor.cursorSmoothCaretAnimation": "off",
+  "editor.cursorSurroundingLines": 8,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.emptySelectionClipboard": false,
-  "editor.fontFamily": "CommitMono, MonoLisa",
-  "editor.fontSize": 14,
+  "editor.fontFamily": "JetBrains Mono NL, CommitMono, MonoLisa",
+  "editor.fontSize": 15.75,
   "editor.formatOnSave": true,
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -37,7 +38,7 @@
   "editor.insertSpaces": true,
   "editor.lightbulb.enabled": "off",
   "editor.lineHeight": 45,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "relative",
   "editor.linkedEditing": false,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
@@ -53,6 +54,7 @@
   "editor.renderControlCharacters": false,
   "editor.renderLineHighlight": "none",
   "editor.renderWhitespace": "trailing",
+  "editor.rulers": [80],
   "editor.scrollBeyondLastLine": false,
   "editor.scrollbar.scrollByPage": false,
   "editor.scrollbar.horizontal": "hidden",
@@ -61,6 +63,7 @@
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.selectionHighlight": false,
   "editor.semanticHighlighting.enabled": false,
+  "editor.smoothScrolling": true,
   "editor.snippetSuggestions": "top",
   "editor.stickyScroll.enabled": false,
   "editor.suggestFontSize": 15,
@@ -120,6 +123,7 @@
     "vue-html": "html"
   },
   "files.autoSave": "off",
+  "files.autoSaveDelay": 0,
   "files.eol": "\n",
   "files.encoding": "utf8",
   "files.exclude": {
@@ -246,7 +250,4 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "remote.SSH.remotePlatform": {
-    "dep-pa-devint": "linux"
-  }
 }
